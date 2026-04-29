@@ -1,14 +1,23 @@
-# Python Security Tools
+# Port Scanner
 
-This repository contains small Python scripts focused on basic cybersecurity concepts and automation.
+## Description
+This project is a basic Python port scanner that checks open ports on a target host.
 
-## Projects
-
-### Password Checker
-A script that evaluates password strength based on security rules.
-
-## Technologies
+## Technologies Used
 - Python
+- Socket library
 
-## Objective
-The goal of this repository is to practice Python while applying basic cybersecurity concepts.
+## Features
+- Scans ports from 1 to 1024
+- Detects open ports
+- Supports IP addresses and hostnames
+
+## Project Objective
+The goal of this project is to understand basic networking concepts and introduce simple cybersecurity automation using Python.
+
+## How to Run
+
+1. Run the script:
+   python port_scanner.py
+
+2. Enter a target IP address or hostname
